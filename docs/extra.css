@@ -1,0 +1,9 @@
+/* Custom styles for full-width table */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Optional: To remove spacing between table cells */
+}
+th, td {
+    padding: 10px; /* Adjust as needed */
+    border: 1px solid #ccc; /* Example border style */
+}

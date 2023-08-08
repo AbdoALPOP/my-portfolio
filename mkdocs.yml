@@ -1,0 +1,84 @@
+site_name: My Portfolio
+markdown_extensions:
+  - tables
+theme:
+  name: material
+  extra_css:
+    - extra.css
+  features:
+    - navigation.footer
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  # Auto Dark and Light Mode  
+  palette:
+
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: Open Sans
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+extra:
+  homepage: https://sonicar.tech
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    copyright: >
+      Copyright &copy; 2018 - 2023 Abdelrahman Ragab –
+      <a href="#__consent">Change cookie settings</a>
+      analytics: 
+  feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+      - icon: fontawesome/brands/github 
+        link: https://github.com/AbdoALPOP
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/in/abdelrahman-ragab/
+      - icon: fontawesome/brands/telegram
+        link: https://t.me/abdelragab
+      - icon: fontawesome/brands/whatsapp
+        link: https://wa.me/+201156296241
+  plugins:
+    - privacy
+    - search:
+      lang: en
+
+copyright: Copyright &copy; 2018 - 2023 Abdelrahman Ragab
+
+
